@@ -3,6 +3,8 @@ package personal_projects;
 import java.util.Scanner;
 
 public class Elevator {
+	
+	//https://open.kattis.com/contests/n8n4re/problems/elevatortrouble
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
@@ -45,7 +47,7 @@ public class Elevator {
 				min = -1;
 			} else {
 				int quo = diff/u;
-				if(diff % u == 0) { //perfect number of steps in one direction
+				if(diff % u == 0) { 		//perfect number of steps in one direction
 					min = diff/u;
 				} else if (d == 0) {		//need steps in both directions, but can't make
 					min = -1;

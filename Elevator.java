@@ -1,5 +1,3 @@
-package personal_projects;
-
 import java.util.Scanner;
 
 public class Elevator {
